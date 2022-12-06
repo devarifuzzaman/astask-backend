@@ -7,4 +7,3 @@ const OTPSchema = mongoose.Schema({
 }, { versionKey: false });
 const OTPModel = mongoose.model('otps', OTPSchema);
 module.exports = OTPModel
-
